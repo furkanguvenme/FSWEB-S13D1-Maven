@@ -10,7 +10,7 @@ public class Main {
     }
 
     public static boolean hasTeen(int firstAge, int secondAge, int thirdAge) {
-       return false;
+       return 13 <= firstAge && firstAge <= 19 || 13 <= secondAge && secondAge <= 19 || 13 <= thirdAge && thirdAge <= 19;
     }
 
     public static boolean isCatPlaying(boolean isSummer, int temp) {
